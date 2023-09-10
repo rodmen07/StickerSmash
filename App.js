@@ -3,7 +3,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 
-import Button from '/components/Button';
+import Button from './components/Button';
 import ImageViewer from './components/ImageViewer';
 import CircleButton from './components/CircleButton';
 import IconButton from './components/IconButton';
@@ -77,7 +77,7 @@ export default function App() {
       </EmojiPicker>
       <StatusBar style="auto" />
     </GestureHandlerRootView>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
